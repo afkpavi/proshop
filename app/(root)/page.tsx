@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button';
-import * as React from 'react';
-
-
+import { Button } from "@/components/ui/button";
+import * as React from "react";
 
 const HomePage: React.FunctionComponent<IHomePageProps> = (props) => {
   return (
-    <Button>ProShop</Button>
+    <div className="h-lvh">
+      <h1>Home</h1>
+    </div>
   );
 };
 
